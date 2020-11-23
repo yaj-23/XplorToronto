@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">XPLORTO</string>
+
+
+    <!-- Description -->
+
+    <string name="first_slide_desc">Welcome to TORONTO’s first
+ONE-STOP location for all of
+your needs</string>
+    <string name="second_slide_desc">Grab somethin to eat.
+BROWSE through list of great
+RESTAURANTS and FOOD JOINTS
+across THE SIX</string>
+    <string name="third_slide_desc">Experience the heavenly
+aroma of fresh Bread, Cakes,
+and more through BAKERIES
+ across the Six</string>
+    <string name="fourth_slide_desc">Explore Toronto’s DIVERSE Culture.
+Cultivated through the roots
+of thousands of People.
+</string>
+
+</resources>
