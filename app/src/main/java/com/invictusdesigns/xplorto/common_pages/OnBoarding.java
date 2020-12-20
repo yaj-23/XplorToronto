@@ -1,4 +1,4 @@
-package com.invictusdesigns.xplorto;
+package com.invictusdesigns.xplorto.common_pages;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
@@ -13,6 +13,9 @@ import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import com.invictusdesigns.xplorto.R;
+import com.invictusdesigns.xplorto.sliders.SliderAdapter;
 
 public class OnBoarding extends AppCompatActivity {
     ViewPager viewPager;

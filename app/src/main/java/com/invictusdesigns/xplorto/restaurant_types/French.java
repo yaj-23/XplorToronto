@@ -1,8 +1,10 @@
-package com.invictusdesigns.xplorto;
+package com.invictusdesigns.xplorto.restaurant_types;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.invictusdesigns.xplorto.R;
 
 public class French extends AppCompatActivity {
 

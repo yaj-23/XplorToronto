@@ -1,4 +1,4 @@
-package com.invictusdesigns.xplorto;
+package com.invictusdesigns.xplorto.common_pages;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,7 +9,12 @@ import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
+import com.invictusdesigns.xplorto.R;
+import com.invictusdesigns.xplorto.common_pages.BakeryPage;
+import com.invictusdesigns.xplorto.common_pages.BarPage;
+import com.invictusdesigns.xplorto.common_pages.FastFoodPage;
+import com.invictusdesigns.xplorto.common_pages.IceCreamPage;
+import com.invictusdesigns.xplorto.common_pages.RestaurantsPage;
 
 public class UserDashBoard extends AppCompatActivity {
 

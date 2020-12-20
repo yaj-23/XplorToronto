@@ -9,20 +9,20 @@
         android:roundIcon="@mipmap/to"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MiddleEastern"></activity>
-        <activity android:name=".Sushi" />
-        <activity android:name=".French" />
-        <activity android:name=".Caribbean" />
-        <activity android:name=".Italian" />
-        <activity android:name=".Indian" />
-        <activity android:name=".IceCreamPage" />
-        <activity android:name=".FastFoodPage" />
-        <activity android:name=".BarPage" />
-        <activity android:name=".BakeryPage" />
-        <activity android:name=".RestaurantsPage" />
-        <activity android:name=".UserDashBoard" />
-        <activity android:name=".OnBoarding" />
-        <activity android:name=".SpashScreen">
+        <activity android:name=".restaurant_types.MiddleEastern"></activity>
+        <activity android:name=".restaurant_types.Sushi" />
+        <activity android:name=".restaurant_types.French" />
+        <activity android:name=".restaurant_types.Caribbean" />
+        <activity android:name=".restaurant_types.Italian" />
+        <activity android:name=".restaurant_types.Indian" />
+        <activity android:name=".common_pages.IceCreamPage" />
+        <activity android:name=".common_pages.FastFoodPage" />
+        <activity android:name=".common_pages.BarPage" />
+        <activity android:name=".common_pages.BakeryPage" />
+        <activity android:name=".common_pages.RestaurantsPage" />
+        <activity android:name=".common_pages.UserDashBoard" />
+        <activity android:name=".common_pages.OnBoarding" />
+        <activity android:name=".common_pages.SpashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

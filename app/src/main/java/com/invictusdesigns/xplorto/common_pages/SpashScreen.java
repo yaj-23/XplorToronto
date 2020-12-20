@@ -1,4 +1,4 @@
-package com.invictusdesigns.xplorto;
+package com.invictusdesigns.xplorto.common_pages;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -11,6 +11,10 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.invictusdesigns.xplorto.R;
+import com.invictusdesigns.xplorto.common_pages.OnBoarding;
+import com.invictusdesigns.xplorto.common_pages.UserDashBoard;
 
 public class SpashScreen extends AppCompatActivity {
 

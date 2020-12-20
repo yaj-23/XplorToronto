@@ -1,4 +1,4 @@
-package com.invictusdesigns.xplorto;
+package com.invictusdesigns.xplorto.common_pages;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,6 +9,8 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.invictusdesigns.xplorto.R;
 
 public class BakeryPage extends AppCompatActivity {
 

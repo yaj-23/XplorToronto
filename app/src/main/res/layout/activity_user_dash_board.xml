@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/spashscreen_final"
     android:orientation="vertical"
-    tools:context=".UserDashBoard">
+    tools:context=".common_pages.UserDashBoard">
 
 
         <RelativeLayout

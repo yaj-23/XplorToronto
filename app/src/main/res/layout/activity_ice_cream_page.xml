@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".BakeryPage"
+    tools:context=".common_pages.BakeryPage"
     android:paddingTop="20dp"
     android:orientation="vertical"
     android:background="@color/white">
@@ -40,14 +40,15 @@
             android:textSize="50sp"
             android:fontFamily="@font/cursiveregular"
             android:textColor="@color/black"/>
+
         <TextView
-            android:paddingTop="5dp"
-            android:layout_below="@+id/heading4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Enjoy From A Wide Variety"
-            android:textColor="@color/black"
-            android:layout_centerHorizontal="true"/>
+            android:layout_below="@+id/heading4"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="5dp"
+            android:text="Enjoy From A Wide Variety Of Local IceCream/Desert Shops"
+            android:textColor="@color/black" />
     </RelativeLayout>
 
     <ScrollView
