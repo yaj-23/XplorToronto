@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/to"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".restaurant_types.MiddleEastern"></activity>
+        <activity android:name=".Samyak"></activity>
+        <activity android:name=".restaurant_types.MiddleEastern" />
         <activity android:name=".restaurant_types.Sushi" />
         <activity android:name=".restaurant_types.French" />
         <activity android:name=".restaurant_types.Caribbean" />

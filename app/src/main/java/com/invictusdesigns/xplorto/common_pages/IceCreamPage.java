@@ -13,8 +13,9 @@ import android.widget.TextView;
 import com.invictusdesigns.xplorto.R;
 
 public class IceCreamPage extends AppCompatActivity {
-    ImageView buisness_img, buisness_img2, buisness_img3, buisness_img4, buisness_img5, buisness_img6;
+    ImageView logo_to,buisness_img, buisness_img2, buisness_img3, buisness_img4, buisness_img5, buisness_img6;
     TextView buisness_title, buisness_title2, buisness_title3, buisness_title4, buisness_title5, buisness_title6;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,6 +24,8 @@ public class IceCreamPage extends AppCompatActivity {
         setContentView(R.layout.activity_ice_cream_page);
 
         //Hooks
+        logo_to = findViewById(R.id.logo_to);
+
         buisness_img = findViewById(R.id.ice_buisness_img);
         buisness_img2 = findViewById(R.id.ice_buisness_img2);
         buisness_img3 = findViewById(R.id.ice_buisness_img3);
@@ -37,6 +40,14 @@ public class IceCreamPage extends AppCompatActivity {
         buisness_title5 = findViewById(R.id.ice_buisness_title5);
         buisness_title6 = findViewById(R.id.ice_buisness_title6);
 
+        //MenuCallback Listeners
+        logo_to.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), UserDashBoard.class);
+                startActivity(intent);
+            }
+        });
 
         // QQ THAI CLICK LISTENER
         buisness_img.setOnClickListener(new View.OnClickListener() {
