@@ -98,7 +98,7 @@
                   android:layout_height="wrap_content"
                   android:layout_gravity="center"
                   android:fontFamily="@font/semibold"
-                  android:text="Bar Raval"
+                  android:text="Banjara"
                   android:textAlignment="center"
                   android:textColor="#000000"
                   android:textSize="25sp" />
@@ -158,7 +158,7 @@
                   android:layout_height="wrap_content"
                   android:layout_gravity="center"
                   android:fontFamily="@font/semibold"
-                  android:text="Birreria Volo"
+                  android:text="Pukka"
                   android:textAlignment="center"
                   android:textColor="#000000"
                   android:textSize="25sp" />
@@ -224,7 +224,7 @@
                   android:layout_height="wrap_content"
                   android:layout_gravity="center"
                   android:fontFamily="@font/semibold"
-                  android:text="Farside"
+                  android:text="Brars"
                   android:textAlignment="center"
                   android:textColor="#000000"
                   android:textSize="25sp" />
@@ -283,7 +283,7 @@
                   android:layout_height="wrap_content"
                   android:layout_gravity="center"
                   android:fontFamily="@font/semibold"
-                  android:text="Mahjong Bar"
+                  android:text="Tich Indian"
                   android:textAlignment="center"
                   android:textColor="#000000"
                   android:textSize="25sp" />
