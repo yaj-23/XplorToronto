@@ -316,6 +316,262 @@
 
       </RelativeLayout>
 
+      <RelativeLayout
+          android:layout_marginTop="20dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/fifthcard"
+            android:layout_width="175dp"
+            android:layout_height="300dp"
+            android:layout_margin="5dp">
+
+          <ScrollView
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+              <ImageView
+                  android:id="@+id/bar_buisness_img5"
+                  android:layout_width="match_parent"
+                  android:layout_height="140dp"
+                  android:scaleType="centerCrop"
+                  android:src="@drawable/farsideimg"/>
+
+              <TextView
+                  android:id="@+id/bar_buisness_title5"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:fontFamily="@font/semibold"
+                  android:text="Cumin Kitchen"
+                  android:textAlignment="center"
+                  android:textColor="#000000"
+                  android:textSize="25sp" />
+
+              <RatingBar
+                  style="@style/Widget.AppCompat.RatingBar.Small"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:rating="4.7" />
+
+              <TextView
+                  android:id="@+id/bar_featured_description5"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:text="Trendy bar with craft beers, shots and cocktails plus rental studios for artists in residence."
+                  android:textAlignment="center"
+                  android:textColor="@color/black"
+                  android:textSize="15sp" />
+
+
+            </LinearLayout>
+
+
+          </ScrollView>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/sixthcard"
+            android:layout_width="175dp"
+            android:layout_height="300dp"
+            android:layout_toRightOf="@+id/fifthcard"
+            android:layout_margin="5dp">
+
+          <ScrollView
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+              <ImageView
+                  android:id="@+id/bar_buisness_img6"
+                  android:layout_width="match_parent"
+                  android:layout_height="140dp"
+                  android:scaleType="centerCrop"
+                  android:src="@drawable/mahjongbarimg"/>
+
+              <TextView
+                  android:id="@+id/bar_buisness_title6"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:fontFamily="@font/semibold"
+                  android:text="Indilicious"
+                  android:textAlignment="center"
+                  android:textColor="#000000"
+                  android:textSize="25sp" />
+
+              <RatingBar
+                  style="@style/Widget.AppCompat.RatingBar.Small"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:rating="4.3" />
+
+              <TextView
+                  android:id="@+id/bar_featured_description6"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:text="A small storefront hides this hip hangout serving small plates of Chinese dishes plus cocktails."
+                  android:textAlignment="center"
+                  android:textColor="@color/black"
+                  android:textSize="15sp" />
+
+
+            </LinearLayout>
+
+
+          </ScrollView>
+
+        </androidx.cardview.widget.CardView>
+
+
+      </RelativeLayout>
+
+      <RelativeLayout
+          android:layout_marginTop="20dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/seventhcard"
+            android:layout_width="175dp"
+            android:layout_height="300dp"
+            android:layout_margin="5dp">
+
+          <ScrollView
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+              <ImageView
+                  android:id="@+id/bar_buisness_img7"
+                  android:layout_width="match_parent"
+                  android:layout_height="140dp"
+                  android:scaleType="centerCrop"
+                  android:src="@drawable/farsideimg"/>
+
+              <TextView
+                  android:id="@+id/bar_buisness_title7"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:fontFamily="@font/semibold"
+                  android:text="Indian Street Food Co"
+                  android:textAlignment="center"
+                  android:textColor="#000000"
+                  android:textSize="20sp" />
+
+              <RatingBar
+                  style="@style/Widget.AppCompat.RatingBar.Small"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:rating="4.7" />
+
+              <TextView
+                  android:id="@+id/bar_featured_description7"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:text="Trendy bar with craft beers, shots and cocktails plus rental studios for artists in residence."
+                  android:textAlignment="center"
+                  android:textColor="@color/black"
+                  android:textSize="15sp" />
+
+
+            </LinearLayout>
+
+
+          </ScrollView>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/eigthcard"
+            android:layout_width="175dp"
+            android:layout_height="300dp"
+            android:layout_toRightOf="@+id/seventhcard"
+            android:layout_margin="5dp">
+
+          <ScrollView
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+              <ImageView
+                  android:id="@+id/bar_buisness_img8"
+                  android:layout_width="match_parent"
+                  android:layout_height="140dp"
+                  android:scaleType="centerCrop"
+                  android:src="@drawable/mahjongbarimg"/>
+
+              <TextView
+                  android:id="@+id/bar_buisness_title8"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:fontFamily="@font/semibold"
+                  android:text="Lageez"
+                  android:textAlignment="center"
+                  android:textColor="#000000"
+                  android:textSize="25sp" />
+
+              <RatingBar
+                  style="@style/Widget.AppCompat.RatingBar.Small"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:rating="4.3" />
+
+              <TextView
+                  android:id="@+id/bar_featured_description8"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:text="A small storefront hides this hip hangout serving small plates of Chinese dishes plus cocktails."
+                  android:textAlignment="center"
+                  android:textColor="@color/black"
+                  android:textSize="15sp" />
+
+
+            </LinearLayout>
+
+
+          </ScrollView>
+
+        </androidx.cardview.widget.CardView>
+
+
+      </RelativeLayout>
+
+
+
 
 
     </LinearLayout>
