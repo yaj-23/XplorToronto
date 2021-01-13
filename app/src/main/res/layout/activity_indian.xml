@@ -1,10 +1,324 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".restaurant_types.Indian">
+    tools:context=".common_pages.BakeryPage"
+    android:paddingTop="20dp"
+    android:orientation="vertical">
 
-  </androidx.constraintlayout.widget.ConstraintLayout>
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:padding="20dp">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/menuicon" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/to_dashboard" />
+
+  </RelativeLayout>
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/heading2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/cursiveregular"
+        android:text="Indian Food Spots"
+        android:textColor="@color/black"
+        android:textSize="50sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/heading2"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="5dp"
+        android:text="Spice up you life with Indian Cuisines"
+        android:textColor="@color/black" />
+  </RelativeLayout>
+
+  <ScrollView
+      android:layout_marginTop="20dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:orientation="vertical">
+
+      <RelativeLayout
+          android:layout_marginTop="20dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/firstcard"
+            android:layout_width="175dp"
+            android:layout_height="300dp"
+            android:layout_margin="5dp">
+
+
+
+          <ScrollView
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+              <ImageView
+                  android:id="@+id/bar_buisness_img"
+                  android:layout_width="match_parent"
+                  android:layout_height="140dp"
+                  android:scaleType="centerCrop"
+                  android:src="@drawable/barravalimg"/>
+
+              <TextView
+                  android:id="@+id/bar_buisness_title"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:fontFamily="@font/semibold"
+                  android:text="Bar Raval"
+                  android:textAlignment="center"
+                  android:textColor="#000000"
+                  android:textSize="25sp" />
+
+              <RatingBar
+                  style="@style/Widget.AppCompat.RatingBar.Small"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:rating="4.5" />
+
+              <TextView
+                  android:id="@+id/bar_featured_description"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:text="Grant van Gameron's Spanish pinxtos bar features Gaudi-esque wood panels and a Barcelona feel"
+                  android:textAlignment="center"
+                  android:textColor="@color/black"
+                  android:textSize="15sp" />
+
+
+            </LinearLayout>
+
+
+          </ScrollView>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/secondcard"
+            android:layout_width="175dp"
+            android:layout_height="300dp"
+            android:layout_toRightOf="@+id/firstcard"
+            android:layout_margin="5dp">
+
+          <ScrollView
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+              <ImageView
+                  android:id="@+id/bar_buisness_img2"
+                  android:layout_width="match_parent"
+                  android:layout_height="140dp"
+                  android:scaleType="centerCrop"
+                  android:src="@drawable/bar_voloimg"/>
+
+              <TextView
+                  android:id="@+id/bar_buisness_title2"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:fontFamily="@font/semibold"
+                  android:text="Birreria Volo"
+                  android:textAlignment="center"
+                  android:textColor="#000000"
+                  android:textSize="25sp" />
+
+              <RatingBar
+                  style="@style/Widget.AppCompat.RatingBar.Small"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:rating="4.6" />
+
+              <TextView
+                  android:id="@+id/bar_featured_description2"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:text="Imported bottled beers and rustic Italian snacks served in a narrow, exposed-brick setting."
+                  android:textAlignment="center"
+                  android:textColor="@color/black"
+                  android:textSize="15sp" />
+
+
+            </LinearLayout>
+
+
+          </ScrollView>
+        </androidx.cardview.widget.CardView>
+
+      </RelativeLayout>
+
+      <RelativeLayout
+          android:layout_marginTop="20dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/thirdcard"
+            android:layout_width="175dp"
+            android:layout_height="300dp"
+            android:layout_margin="5dp">
+
+          <ScrollView
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+              <ImageView
+                  android:id="@+id/bar_buisness_img3"
+                  android:layout_width="match_parent"
+                  android:layout_height="140dp"
+                  android:scaleType="centerCrop"
+                  android:src="@drawable/farsideimg"/>
+
+              <TextView
+                  android:id="@+id/bar_buisness_title3"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:fontFamily="@font/semibold"
+                  android:text="Farside"
+                  android:textAlignment="center"
+                  android:textColor="#000000"
+                  android:textSize="25sp" />
+
+              <RatingBar
+                  style="@style/Widget.AppCompat.RatingBar.Small"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:rating="4.7" />
+
+              <TextView
+                  android:id="@+id/bar_featured_description3"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:text="Trendy bar with craft beers, shots and cocktails plus rental studios for artists in residence."
+                  android:textAlignment="center"
+                  android:textColor="@color/black"
+                  android:textSize="15sp" />
+
+
+            </LinearLayout>
+
+
+          </ScrollView>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/fourthcard"
+            android:layout_width="175dp"
+            android:layout_height="300dp"
+            android:layout_toRightOf="@+id/thirdcard"
+            android:layout_margin="5dp">
+
+          <ScrollView
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+              <ImageView
+                  android:id="@+id/bar_buisness_img4"
+                  android:layout_width="match_parent"
+                  android:layout_height="140dp"
+                  android:scaleType="centerCrop"
+                  android:src="@drawable/mahjongbarimg"/>
+
+              <TextView
+                  android:id="@+id/bar_buisness_title4"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:fontFamily="@font/semibold"
+                  android:text="Mahjong Bar"
+                  android:textAlignment="center"
+                  android:textColor="#000000"
+                  android:textSize="25sp" />
+
+              <RatingBar
+                  style="@style/Widget.AppCompat.RatingBar.Small"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:rating="4.3" />
+
+              <TextView
+                  android:id="@+id/bar_featured_description4"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:text="A small storefront hides this hip hangout serving small plates of Chinese dishes plus cocktails."
+                  android:textAlignment="center"
+                  android:textColor="@color/black"
+                  android:textSize="15sp" />
+
+
+            </LinearLayout>
+
+
+          </ScrollView>
+
+        </androidx.cardview.widget.CardView>
+
+
+      </RelativeLayout>
+
+
+
+    </LinearLayout>
+  </ScrollView>
+
+</LinearLayout>
