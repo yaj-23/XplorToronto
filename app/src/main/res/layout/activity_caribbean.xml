@@ -39,7 +39,7 @@
             android:fontFamily="@font/cursiveregular"
             android:text="Caribbean Food Spots"
             android:textColor="@color/black"
-            android:textSize="50sp" />
+            android:textSize="45sp" />
 
         <TextView
             android:layout_width="wrap_content"
